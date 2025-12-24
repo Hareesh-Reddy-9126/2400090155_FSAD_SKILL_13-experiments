@@ -17,6 +17,7 @@
     <mysql.connector.version>8.0.33</mysql.connector.version>
     <jakarta.persistence.version>3.1.0</jakarta.persistence.version>
     <jakarta.transaction.version>2.0.1</jakarta.transaction.version>
+    <maven.compiler.release>17</maven.compiler.release>
   </properties>
 
   <dependencies>
@@ -56,6 +57,7 @@
         <configuration>
           <source>${maven.compiler.source}</source>
           <target>${maven.compiler.target}</target>
+          <release>${maven.compiler.release}</release>
         </configuration>
       </plugin>
       <plugin>
