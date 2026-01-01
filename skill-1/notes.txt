@@ -1,0 +1,4 @@
+Git Lab Notes:
+- Initial commit with Main.java and notes.txt
+- Feature branch will tweak greeting
+- Bug-fix branch will adjust punctuation

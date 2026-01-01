@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Constructor Injection -->
+    <bean id="studentConstructor" class="com.example.Student">
+        <constructor-arg name="studentId" value="101"/>
+        <constructor-arg name="name" value="Alice"/>
+        <constructor-arg name="course" value="Spring Framework"/>
+        <constructor-arg name="year" value="2026"/>
+    </bean>
+
+    <!-- Setter Injection (uses constructor defaults then overrides setters) -->
+    <bean id="studentSetter" class="com.example.Student">
+        <constructor-arg name="studentId" value="102"/>
+        <constructor-arg name="name" value="Bob"/>
+        <constructor-arg name="course" value="Placeholder"/>
+        <constructor-arg name="year" value="Placeholder"/>
+        <property name="course" value="Java"/>
+        <property name="year" value="2027"/>
+    </bean>
+</beans>
