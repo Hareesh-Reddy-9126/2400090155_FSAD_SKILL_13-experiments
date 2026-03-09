@@ -1,42 +1,151 @@
-🚀 FSAD Lab Experiments
-Full Stack Application Development (Course Repository)
-<p align="center"> <img src="https://img.shields.io/badge/Java-17-orange" /> <img src="https://img.shields.io/badge/Maven-Build-red" /> <img src="https://img.shields.io/badge/Hibernate-ORM-yellow" /> <img src="https://img.shields.io/badge/Spring-Core-green" /> <img src="https://img.shields.io/badge/Spring-Boot-brightgreen" /> </p> <p align="center"> Repository containing laboratory experiments for the <b>Full Stack Application Development (FSAD)</b> course. </p>
-📘 About This Repository
+<h1 align="center">🚀 FSAD Lab Experiments</h1>
+<p align="center">
+	<img src="https://img.shields.io/badge/Java-17-orange" />
+	<img src="https://img.shields.io/badge/Maven-Build-red" />
+	<img src="https://img.shields.io/badge/Hibernate-ORM-yellow" />
+	<img src="https://img.shields.io/badge/Spring-Core-green" />
+	<img src="https://img.shields.io/badge/Spring-Boot-brightgreen" />
+	<img src="https://img.shields.io/badge/React-18-blue" />
+</p>
 
-This repository contains six skill-based experiments implemented using modern Java backend technologies.
+<p align="center"><b>Repository containing laboratory experiments for the Full Stack Application Development (FSAD) course.</b></p>
 
-Each experiment demonstrates important backend concepts such as:
+---
 
-Version Control using Git
+## 📘 About This Repository
 
-ORM using Hibernate
+This repository contains **11 skill-based experiments** implemented using modern Java backend and React frontend technologies.
 
-Querying using HQL
+Each experiment demonstrates key concepts in full stack development:
+- Version Control (Git)
+- ORM (Hibernate)
+- Querying (HQL)
+- Spring Dependency Injection & Autowiring
+- Spring Boot REST APIs
+- MVC Web Request Handling
+- React Frontend (CRUD, API integration)
+- API integration (Fetch, Axios, Local JSON)
 
-Spring Dependency Injection
+All projects are built using Maven (Java) or npm (React) and organized in a modular structure.
 
-Spring Autowiring
+---
 
-Spring Boot REST APIs
+## 🛠 Technology Stack
 
-All projects are built using Maven and organized in a modular structure.
+| Technology      | Purpose                          |
+|-----------------|-----------------------------------|
+| Java 17         | Core programming language         |
+| Maven           | Build & dependency management     |
+| Hibernate ORM   | Object Relational Mapping         |
+| Spring Framework| Dependency Injection & Autowiring |
+| Spring Boot     | REST API development              |
+| MySQL           | Database for Hibernate experiments |
+| React 18        | Frontend SPA development          |
+| Axios           | API integration                   |
+| VS Code / STS   | Development environments          |
 
-🛠 Technology Stack
-Technology	Purpose
-Java 17	Core programming language
-Maven	Build and dependency management
-Hibernate ORM	Object Relational Mapping
-Spring Framework	Dependency Injection & Autowiring
-Spring Boot	REST API development
-MySQL	Database for Hibernate experiments
-VS Code / STS	Development environments
-📂 Repository Structure
-skill-1   → Git Version Control Demo
-skill-2   → Hibernate CRUD Operations
-skill-3   → Hibernate HQL Queries
-skill-4   → Spring Dependency Injection
-skill-5   → Spring Autowiring (@Autowired)
-skill-6   → Spring Boot MVC Web Request Handling
+---
+
+## 📂 Repository Structure
+
+| Folder     | Experiment Title                      |
+|------------|--------------------------------------|
+| skill-1    | Git Version Control Demo              |
+| skill-2    | Hibernate CRUD Operations             |
+| skill-3    | Hibernate HQL Queries                 |
+| skill-4    | Spring Dependency Injection           |
+| skill-5    | Spring Autowiring (@Autowired)        |
+| skill-6    | Spring Boot MVC Web Request Handling  |
+| skill-7    | Spring Boot REST API (Course CRUD)    |
+| skill-8    | Spring Boot REST API (Product CRUD)   |
+| skill-9    | Spring Boot REST API (Student CRUD)   |
+| skill-10   | React Student Manager (CRUD Demo)     |
+| skill-11   | React API Integration (Fetch/Axios/JSON)|
+
+---
+
+## 🧪 Experiment Overview
+
+| Skill    | Experiment                        | Key Concepts                       |
+|----------|-----------------------------------|-------------------------------------|
+| Skill-1  | Git Version Control                | Git workflow, commits, branching    |
+| Skill-2  | Hibernate CRUD                     | ORM mapping, insert/update/delete   |
+| Skill-3  | Hibernate HQL                      | Sorting, pagination, aggregate      |
+| Skill-4  | Spring Dependency Injection        | Constructor & Setter Injection      |
+| Skill-5  | Spring Autowiring                  | @Component, @Autowired              |
+| Skill-6  | Spring Boot MVC                    | REST APIs, request handling         |
+| Skill-7  | Spring Boot REST API (Course CRUD) | REST endpoints, CRUD, validation    |
+| Skill-8  | Spring Boot REST API (Product CRUD)| REST endpoints, CRUD, validation    |
+| Skill-9  | Spring Boot REST API (Student CRUD)| REST endpoints, CRUD, validation    |
+| Skill-10 | React Student Manager              | React CRUD, useState, components    |
+| Skill-11 | React API Integration              | Fetch, Axios, Local JSON, hooks     |
+
+---
+
+## ⚙️ Running the Projects
+
+### Java/Maven Projects (Skill-1 to Skill-9)
+1. Open the skill folder (e.g., skill-3)
+2. Run: `mvn clean install` or `mvn spring-boot:run` (for Spring Boot)
+3. Update DB credentials in `hibernate.cfg.xml` if needed
+4. Access REST endpoints via browser/Postman
+
+### React Projects (Skill-10, Skill-11)
+1. Open the skill folder (e.g., skill-11)
+2. Run: `npm install` then `npm start`
+3. Open [http://localhost:3000](http://localhost:3000) in browser
+
+---
+
+## 🌟 Example Outputs
+
+- Java: Console logs, REST API responses, DB tables
+- React: Browser screenshots, CRUD UI, API data tables
+
+---
+
+## 🎯 Learning Outcomes
+
+By completing these experiments, you will practice:
+- Git repository management
+- Hibernate ORM and CRUD operations
+- Advanced queries using HQL
+- Spring Dependency Injection & Autowiring
+- REST API development with Spring Boot
+- Web request handling (MVC)
+- React SPA development (CRUD, API integration)
+- API integration using Fetch, Axios, and Local JSON
+
+---
+
+## 👨‍💻 Author & Course Info
+
+**Name:** GURRALA HAREESH REDDY  
+**ID:** 2400090155  
+**Section:** 06  
+**Course:** Full Stack Application Development (FSAD)
+
+---
+
+## ⭐ Purpose
+
+This repository was created for academic laboratory submission and demonstrates practical implementation of Java enterprise and React frontend development frameworks.
+
+---
+
+## 🏆 Impress Your Evaluator
+
+- Clean modular structure for each experiment
+- Detailed documentation for each skill
+- Modern tech stack (Java, Spring Boot, React)
+- All code committed and versioned in Git
+- Easy to run and test
+- Output screenshots included for each experiment
+- Demonstrates both backend and frontend skills
+
+---
+
+> **Tip:** For best results, open each skill folder, run the project, and review the outputs/screenshots. All code is ready for review and grading.
 
 Each folder contains an independent Maven project.
 
