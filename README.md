@@ -133,19 +133,21 @@ This repository was created for academic laboratory submission and demonstrates 
 
 ---
 
-## 🏆 Impress Your Evaluator
+---
 
-- Clean modular structure for each experiment
-- Detailed documentation for each skill
-- Modern tech stack (Java, Spring Boot, React)
-- All code committed and versioned in Git
-- Easy to run and test
-- Output screenshots included for each experiment
-- Demonstrates both backend and frontend skills
+## 🏅 Repository Highlights
+
+- Modular structure: Each experiment is organized in its own folder for clarity and maintainability.
+- Comprehensive documentation: Every skill is described with its purpose, tech stack, and key concepts.
+- Modern technologies: Java 17, Spring Boot, Hibernate, React 18, Axios, and more.
+- Version control: All code is tracked in Git for transparency and reproducibility.
+- Easy setup: Clear instructions for building and running each project.
+- Output samples: Example outputs and screenshots included for reference.
+- Full stack coverage: Demonstrates both backend and frontend development skills.
 
 ---
 
-> **Tip:** For best results, open each skill folder, run the project, and review the outputs/screenshots. All code is ready for review and grading.
+> For best results, open each skill folder, follow the setup instructions, and review the outputs. All code is ready for exploration, learning, and practical use.
 
 Each folder contains an independent Maven project.
 
