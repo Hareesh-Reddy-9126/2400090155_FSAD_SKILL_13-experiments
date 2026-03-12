@@ -12,6 +12,14 @@
 
 ---
 
+## 📦 Latest Updates
+
+- Added skill-12: Full-stack project with Java backend and React frontend
+- Added skill-13: Advanced full-stack project with build outputs and documentation
+- Updated docx files for all skills
+
+---
+
 ## 📘 About This Repository
 
 This repository contains **11 skill-based experiments** implemented using modern Java backend and React frontend technologies.
@@ -61,6 +69,8 @@ All projects are built using Maven (Java) or npm (React) and organized in a modu
 | skill-9    | Spring Boot REST API (Student CRUD)   |
 | skill-10   | React Student Manager (CRUD Demo)     |
 | skill-11   | React API Integration (Fetch/Axios/JSON)|
+| skill-12   | Full-stack project with Java backend and React frontend|
+| skill-13   | Advanced full-stack project with build outputs and documentation|
 
 ---
 
@@ -79,6 +89,8 @@ All projects are built using Maven (Java) or npm (React) and organized in a modu
 | Skill-9  | Spring Boot REST API (Student CRUD)| REST endpoints, CRUD, validation    |
 | Skill-10 | React Student Manager              | React CRUD, useState, components    |
 | Skill-11 | React API Integration              | Fetch, Axios, Local JSON, hooks     |
+| Skill-12 | Full-stack project with Java backend and React frontend| React frontend, Java backend, full-stack integration|
+| Skill-13 | Advanced full-stack project with build outputs and documentation| Build outputs, documentation, full-stack complexity|
 
 ---
 
@@ -94,6 +106,18 @@ All projects are built using Maven (Java) or npm (React) and organized in a modu
 1. Open the skill folder (e.g., skill-11)
 2. Run: `npm install` then `npm start`
 3. Open [http://localhost:3000](http://localhost:3000) in browser
+
+### Skill-12: Full-stack project with Java backend and React frontend
+1. Open the skill folder (e.g., skill-12)
+2. Run: `mvn clean install` or `mvn spring-boot:run` (for Spring Boot)
+3. Update DB credentials in `hibernate.cfg.xml` if needed
+4. Access REST endpoints via browser/Postman
+
+### Skill-13: Advanced full-stack project with build outputs and documentation
+1. Open the skill folder (e.g., skill-13)
+2. Run: `mvn clean install` or `mvn spring-boot:run` (for Spring Boot)
+3. Update DB credentials in `hibernate.cfg.xml` if needed
+4. Access REST endpoints via browser/Postman
 
 ---
 
@@ -159,67 +183,51 @@ Skill-3	Hibernate HQL	Sorting, pagination, aggregate queries
 Skill-4	Spring Dependency Injection	Constructor & Setter Injection
 Skill-5	Spring Autowiring	@Component and @Autowired
 Skill-6	Spring Boot MVC	REST APIs, request handling
-⚙️ Running the Projects
-🧩 Skill-1 – Basic Maven Project
-mvn -f skill-1/pom.xml clean package
-java -cp skill-1/target/classes Main
-🧩 Skill-2 – Hibernate CRUD
+Skill-7	Spring Boot REST API (Course CRUD)	REST endpoints, CRUD, validation
+Skill-8	Spring Boot REST API (Product CRUD)	REST endpoints, CRUD, validation
+Skill-9	Spring Boot REST API (Student CRUD)	REST endpoints, CRUD, validation
+Skill-10	React Student Manager	React CRUD, useState, components
+Skill-11	React API Integration	Fetch, Axios, Local JSON, hooks
+Skill-12	Full-stack project with Java backend and React frontend	React frontend, Java backend, full-stack integration
+Skill-13	Advanced full-stack project with build outputs and documentation	Build outputs, documentation, full-stack complexity
 
-Before running, update database credentials in:
+---
 
-skill-2/src/main/resources/hibernate.cfg.xml
+## ⚙️ Running the Projects
 
-Run:
+### Java/Maven Projects (Skill-1 to Skill-9)
+1. Open the skill folder (e.g., skill-3)
+2. Run: `mvn clean install` or `mvn spring-boot:run` (for Spring Boot)
+3. Update DB credentials in `hibernate.cfg.xml` if needed
+4. Access REST endpoints via browser/Postman
 
-mvn -f skill-2/pom.xml clean test
-🧩 Skill-3 – Hibernate HQL
-mvn -f skill-3/pom.xml clean test
-🧩 Skill-4 – Spring Dependency Injection
+### React Projects (Skill-10, Skill-11)
+1. Open the skill folder (e.g., skill-11)
+2. Run: `npm install` then `npm start`
+3. Open [http://localhost:3000](http://localhost:3000) in browser
 
-Run XML configuration demo:
+### Skill-12: Full-stack project with Java backend and React frontend
+1. Open the skill folder (e.g., skill-12)
+2. Run: `mvn clean install` or `mvn spring-boot:run` (for Spring Boot)
+3. Update DB credentials in `hibernate.cfg.xml` if needed
+4. Access REST endpoints via browser/Postman
 
-mvn -f skill-4/pom.xml org.codehaus.mojo:exec-maven-plugin:3.1.0:java "-Dexec.mainClass=com.example.XmlConfigMain"
+### Skill-13: Advanced full-stack project with build outputs and documentation
+1. Open the skill folder (e.g., skill-13)
+2. Run: `mvn clean install` or `mvn spring-boot:run` (for Spring Boot)
+3. Update DB credentials in `hibernate.cfg.xml` if needed
+4. Access REST endpoints via browser/Postman
 
-Run annotation configuration demo:
+---
 
-mvn -f skill-4/pom.xml org.codehaus.mojo:exec-maven-plugin:3.1.0:java "-Dexec.mainClass=com.example.AnnotationConfigMain"
-🧩 Skill-5 – Spring Autowiring
-mvn -f skill-5/pom.xml org.codehaus.mojo:exec-maven-plugin:3.1.0:java "-Dexec.mainClass=com.example.MainApp"
+## 🌟 Example Outputs
 
-Example Output:
+- Java: Console logs, REST API responses, DB tables
+- React: Browser screenshots, CRUD UI, API data tables
 
-Student{id=101, name='Hareesh', gender='Male', certification=Certification{...}}
-🧩 Skill-6 – Spring Boot MVC
+---
 
-Start the Spring Boot application:
-
-mvn -f skill-6/pom.xml spring-boot:run
-
-Application runs at:
-
-http://localhost:8081
-
-Example endpoints:
-
-/welcome
-/books
-/books/{id}
-/search?title=Java
-/author/{name}
-/addbook
-/viewbooks
-🌐 Example API Endpoints
-Endpoint	Method	Description
-/welcome	GET	Welcome message
-/count	GET	Returns book count
-/price	GET	Returns book price
-/books	GET	List of book titles
-/books/{id}	GET	Book details
-/search?title=	GET	Search books
-/author/{name}	GET	Author information
-/addbook	POST	Add a new book
-/viewbooks	GET	View all books
-🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 By completing these experiments, the following concepts were practiced:
 
